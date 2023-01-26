@@ -17,8 +17,8 @@ public class Main
 		penny.setName("Penny");
 		penny.speak();
 
-
-		Cat ginger = new Cat("Ginger");
+		Cat ginger = new Cat();
+		ginger.setName("Ginger");
+		ginger.speak();
 	}
-	
 }
