@@ -20,5 +20,9 @@ public class Main
 		Cat ginger = new Cat();
 		ginger.setName("Ginger");
 		ginger.speak();
+
+		helloProcessing();
+		
 	}
+
 }
