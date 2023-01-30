@@ -12,20 +12,21 @@ public class HelloProcessing extends PApplet
 
 	public void setup() {
 		//colorMode(HSB);
-		background(0);
+		background(201, 54, 54);
 		
 	}
 
 	
 	public void draw()
 	{	
-		stroke (255);
-		line(10, 10, 100, 100); //x1, y1, x2, y2
-		circle(300, 250, 70); //cx, cy, diameter
-		fill(0, 255, 50);
-		rect(10, 300, 20, 100); // tlx, tly, width, height
-		fill(0, 0, 255);
-		triangle(40, 90, 300, 20, 80, 70); //float x1, float y1, float x2, float y2, float x3, float y3)
-		fill(0, 25, 200);
+		fill(246, 250, 0);
+		circle(250, 250, 420);
+		fill(10, 250, 206);
+		triangle(250, 70, 70, 400, 420, 400);
+		fill(255,255,255);
+		ellipse(243, 250, 150, 90);
+		fill(0,0,0);
+		circle(245, 250, 70);
+		
 	}
 }
